@@ -267,45 +267,7 @@ a:hover{
     padding-top: 30px;
     text-align: center;
 }
-/*-----------------------------------------------------------------------------
-	ANIMACION
------------------------------------------------------------------------------*/
-.animado{
-    opacity: 0;
-    transition: all 1s;
-    
-}
-.animado2{
-    opacity: 0;
-    transition: all 1s;
-    
-}
 
-.mostrarIzquierda{
-    animation: mostrarIzquierda 1s !important;
-    
-}
-.mostrarDerecha{
-    animation: mostrarDerecha 1s !important;
-    
-}
-
-@keyframes mostrarIzquierda{
-    0% {
-        transform: translateX(-60px);
-    }
-    100%{
-        transform: translateX(0);
-    }
-}
-@keyframes mostrarDerecha{
-    0% {
-        transform: translateX(+60px);
-    }
-    100%{
-        transform: translateX(0);
-    }
-}
 
 /*-----------------------------------------------------------------------------
 	EFECTOS MENU
@@ -364,7 +326,45 @@ a:hover{
 	MEDIAQUERIES
 -----------------------------------------------------------------------------*/
 @media screen and (min-width: 900px){
-	
+/*-----------------------------------------------------------------------------
+	ANIMACION
+-----------------------------------------------------------------------------*/
+.animado{
+    opacity: 0;
+    transition: all 1s;
+    
+}
+.animado2{
+    opacity: 0;
+    transition: all 1s;
+    
+}
+
+.mostrarIzquierda{
+    animation: mostrarIzquierda 1s !important;
+    
+}
+.mostrarDerecha{
+    animation: mostrarDerecha 1s !important;
+    
+}
+
+@keyframes mostrarIzquierda{
+    0% {
+        transform: translateX(-60px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes mostrarDerecha{
+    0% {
+        transform: translateX(+60px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
 	
 	
 }
