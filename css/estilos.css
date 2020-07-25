@@ -398,7 +398,6 @@ a:hover{
 	.encabezado {
 		
 		flex-direction: column;
-		padding: 10px !important;
 		
 	}
 	
@@ -414,7 +413,7 @@ a:hover{
 	}
 	.encabezado nav ul li a {
 		
-    		padding: 10 !important;
+    		padding: 10px !important;
 	
 	}
 	.servicios img{
